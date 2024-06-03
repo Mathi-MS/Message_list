@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+body{
+    background-color: grey;
+}
+.back{
+    background-color: grey;
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+.boxes{
+    width: 60%;
+    height:max-content;
+    background-color: rgba(204, 202, 202, 0.822);
+    padding: 30px;
+    border-radius: 10px;
+}
+.inputbox{
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+}
+.inputbox input{
+    width: 100%;
+    padding: 15px 10px 15px 3%;
+    outline: none;
+    border: solid 1px white;
+    border-radius: 15px;
+    font-size: 20px;
+}
+.inputbox i{
+    position: absolute;
+    margin: auto;
+    right: 3%;
+    top: 0px;
+    bottom: 0px;
+    width: max-content;
+    height: max-content;
+    color: grey;
+}
+.profilebox{
+    background-color: white;
+    margin: 10px 0px;
+    padding: 10px;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.profilebox img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 200px;
+}
+.profilebox .profilebox__one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.profilebox .profilebox__two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.profilebox .profileboxes{
+    width: 100%;
+    padding-left: 20px;
+}
+.profilebox h2{
+    font-size: 22px;
+}
+.profilebox h3{
+    font-size: 16px;
+    color: grey;
+}
+.profilebox p{
+    font-size: 14px;
+    color: grey;
+}
+.profilebox i{
+    color: rgb(5, 197, 133);
+}
+
+@media(max-width:600px){
+    .boxes {
+        width: 80%;
+        height: max-content;
+        background-color: rgba(204, 202, 202, 0.822);
+        padding: 30px;
+        border-radius: 10px;
+    }
+}
+@media(max-width:500px){
+    .boxes {
+        width: 95%;
+        height: max-content;
+        background-color: rgba(204, 202, 202, 0.822);
+        padding: 30px 10px;
+        border-radius: 10px;
+    }
+}
